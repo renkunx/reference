@@ -60,7 +60,7 @@ Quick Reference
 [Claude Code](./docs/claude.md)<!--rehype:style=background:rgb(217 119 87);&class=contributing tag&data-lang=AI-->
 [Cisco 网络设备](./docs/cisco-devices.md)<!--rehype:style=background: rgb(4 159 217);&class=contributing&data-info=👆看看还缺点儿什么？-->
 [Huawei 网络设备](./docs/huawei-devices.md)<!--rehype:style=background: rgb(222 0 8);&class=contributing&data-info=👆看看还缺点儿什么？-->
-[银联 CUPS](./docs/unipay.md)<!--rehype:style=background: #DD2C34;&data-lang=unipay-->
+[银联 CUPS](./docs/unipay.md)<!--rehype:style=background: #04563e;-->
 <!--rehype:class=home-card-->
 
 ## 编程
