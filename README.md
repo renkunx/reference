@@ -1,20 +1,3 @@
-<!--rehype:ignore:start-->
-<div align="center" markdown="1">
-  <sup>Special thanks to:</sup>
-  <br>
-  <br>
-  
-  <a href="https://screensage.pro/" target="_blank">
-    <img alt="ScreenSage Pro" width="400" src="https://jaywcjlove.github.io/sponsor/screensage.png">
-  </a>
-  <br>
-  <a href="https://screensage.pro/">ScreenSage Pro, record beautiful screen recordings in minutes on macOS</a>
-  <br><br>
-
-</div>
-<hr>
-<!--rehype:ignore:end-->
-
 Quick Reference
 ===
 
