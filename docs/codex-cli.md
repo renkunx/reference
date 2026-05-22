@@ -136,7 +136,7 @@ $ codex exec resume <SESSION_ID> "Implement"
 ---
 <!--rehype:body-class=cols-2-->
 
-### 全部参数
+### 全部参数 {.row-span-3}
 
 | 参数                      | 取值            | 说明                               |
 | ------------------------- | --------------- | ---------------------------------- |
@@ -164,7 +164,7 @@ $ codex exec resume <SESSION_ID> "Implement"
 
 ### 使用示例
 
-```bash
+```bash {.wrap}
 # 指定模型
 $ codex -m gpt-5.4 "Refactor the auth module"
 
@@ -204,7 +204,7 @@ $ codex -C ~/projects/api "Review this codebase"
 | `on-request` | 超出沙箱边界时询问                        |
 | `never`      | 从不询问；所有命令自动执行                |
 
-### 预设
+### 预设 {.primary}
 
 | 预设          | 等价设置                         |
 | ------------- | -------------------------------- |
@@ -362,7 +362,7 @@ $ codex --disable shell_snapshot
 
 ## 约定
 
-- TypeScript 严格模式
+- TypeScript strict mode
 - 日志中不得包含 PII
 - 所有路由都需鉴权中间件
 
@@ -394,7 +394,8 @@ my-skill/
 ```markdown
 ---
 name: commit
-description: 按语义分组暂存并提交变更。
+description: Stage and commit changes
+  in semantic groups.
 ---
 
 1. 按逻辑分组暂存文件。
