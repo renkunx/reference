@@ -101,6 +101,7 @@ Quick Reference
 
 [Ansible](./docs/ansible.md)<!--rehype:style=background:rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆看看还缺点儿什么？-->
 [C#](./docs/cs.md)<!--rehype:style=background:rgb(6 147 13);&class=contributing-->
+[Django](./docs/django.md)<!--rehype:style=background:rgb(12 75 51);&class=contributing tag&data-lang=Python-->
 [Flask](./docs/flask.md)<!--rehype:style=background:rgb(210 168 255);&class=contributing tag&data-lang=Python-->
 [FastAPI](./docs/fastapi.md)<!--rehype:style=background:rgb(210 168 255);&class=contributing tag&data-lang=Python-->
 [Flutter](./docs/flutter.md)<!--rehype:style=background:rgb(150 220 254);&class=contributing tag&data-lang=Dart-->
@@ -110,6 +111,7 @@ Quick Reference
 [MATLAB](./docs/matlab.md)<!--rehype:style=background:rgb(0 118 168);&class=contributing-->
 [Pytorch](./docs/pytorch.md)<!--rehype:style=background:rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆看看还缺点儿什么？-->
 [Vue 3](./docs/vue.md)<!--rehype:style=background:rgb(64 184 131);&class=contributing-->
+[Chown](./docs/chown.md)<!--rehype:style=background:rgb(12 75 51/var(\-\-bg\-opacity));&class=contributing-->
 [R 语言](./docs/r.md)<!--rehype:style=background:rgb(39 108 192);&class=contributing-->
 [Elixir](./docs/elixir.md)<!--rehype:style=background:rgb(124 26 156);&class=contributing tag&data-lang=Elixir-->
 [Tauri](./docs/tauri.md)<!--rehype:style=background:rgb(103 214 237);&class=contributing-->
@@ -130,6 +132,18 @@ Quick Reference
 [Gemini CLI](./docs/gemini-cli.md)<!--rehype:style=background:rgb(217 87 96);&class=tag&data-lang=AI-->
 [Grok CLI](./docs/grok-cli.md)<!--rehype:style=background:rgb(122 87 217);&class=tag&data-lang=AI-->
 [Grok](./docs/grok.md)<!--rehype:style=background:rgb(84 84 84);&class=tag&data-lang=官方-->
+<!--rehype:class=home-card-->
+
+
+## AI
+
+[ChatGPT](./docs/chatgpt.md)<!--rehype:style=background:rgb(74 161 129);&class=tag&data-lang=AI-->
+[Codex CLI](./docs/codex-cli.md)<!--rehype:style=background:rgb(74 161 129);&class=tag&data-lang=AI-->
+[Claude Code](./docs/claude.md)<!--rehype:style=background:rgb(217 119 87);&class=tag&data-lang=AI-->
+[Cursor CLI](./docs/cursor-cli.md)<!--rehype:style=background:rgb(119 119 119);&class=tag&data-lang=AI-->
+[Gemma 4](./docs/gemma4.md)<!--rehype:style=background:rgb(87 132 217);&class=tag&data-lang=AI-->
+[Gemini CLI](./docs/gemini-cli.md)<!--rehype:style=background:rgb(217 87 96);&class=tag&data-lang=AI-->
+[Grok CLI](./docs/grok-cli.md)<!--rehype:style=background:rgb(122 87 217);&class=tag&data-lang=AI-->
 <!--rehype:class=home-card-->
 
 ## 编程
@@ -166,18 +180,6 @@ Quick Reference
 [SwiftUI](./docs/swiftui.md)<!--rehype:style=background:rgb(10 127 247);&class=tag&data-lang=swift-->
 [Spring Boot](./docs/springboot.md)<!--rehype:style=background:rgb(0 149 0);&class=tag&data-lang=Java-->
 [Minio](./docs/minio.md)<!--rehype:style=background:rgb(3 3 128);-->
-<!--rehype:class=home-card-->
-
-
-## AI
-
-[ChatGPT](./docs/chatgpt.md)<!--rehype:style=background:rgb(74 161 129);&class=tag&data-lang=AI-->
-[Codex CLI](./docs/codex-cli.md)<!--rehype:style=background:rgb(74 161 129);&class=tag&data-lang=AI-->
-[Claude Code](./docs/claude.md)<!--rehype:style=background:rgb(217 119 87);&class=tag&data-lang=AI-->
-[Cursor CLI](./docs/cursor-cli.md)<!--rehype:style=background:rgb(119 119 119);&class=tag&data-lang=AI-->
-[Gemma 4](./docs/gemma4.md)<!--rehype:style=background:rgb(87 132 217);&class=tag&data-lang=AI-->
-[Gemini CLI](./docs/gemini-cli.md)<!--rehype:style=background:rgb(217 87 96);&class=tag&data-lang=AI-->
-[Grok CLI](./docs/grok-cli.md)<!--rehype:style=background:rgb(122 87 217);&class=tag&data-lang=AI-->
 <!--rehype:class=home-card-->
 
 ## Docker
@@ -366,7 +368,7 @@ Quick Reference
 [Adobe Illustrator](./docs/adobe-illustrator.md)<!--rehype:style=background: rgb(255 154 0);-->
 [Adobe XD](./docs/adobe-xd.md)<!--rehype:style=background: rgb(255 97 246);-->
 [Adobe After Effects](./docs/adobe-ae.md)<!--rehype:style=background: rgb(111 111 228);-->
-[Adobe Premiere](./docs/adobe-pr.md)<!--rehype:style=background: rgb(111 111 228);-->
+[Android Studio](./docs/android-studio.md)<!--rehype:style=background: rgb(16 185 129);-->
 [Blender](./docs/blender.md)<!--rehype:style=background: rgb(16 185 129);-->
 [CorelDRAW](./docs/coreldraw.md)<!--rehype:style=background: rgb(16 185 129);-->
 [Figma](./docs/figma.md)<!--rehype:style=background: rgb(147 90 238);-->
