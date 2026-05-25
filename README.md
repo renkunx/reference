@@ -371,6 +371,8 @@ Quick Reference
 [Android Studio](./docs/android-studio.md)<!--rehype:style=background: rgb(16 185 129);-->
 [Blender](./docs/blender.md)<!--rehype:style=background: rgb(16 185 129);-->
 [CorelDRAW](./docs/coreldraw.md)<!--rehype:style=background: rgb(16 185 129);-->
+[Firefox](./docs/firefox.md)<!--rehype:style=background: rgb(253 53 76);-->
+[Finder](./docs/finder.md)<!--rehype:style=background: rgb(253 53 76);&class=tag&data-lang=macOS-->
 [Figma](./docs/figma.md)<!--rehype:style=background: rgb(147 90 238);-->
 [Sketch](./docs/sketch.md)<!--rehype:style=background: rgb(223 148 0);&class=tag&data-lang=macOS-->
 <!--rehype:class=home-card-->
