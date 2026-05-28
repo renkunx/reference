@@ -370,11 +370,8 @@ Quick Reference
 [Adobe XD](./docs/adobe-xd.md)<!--rehype:style=background: rgb(255 97 246);-->
 [Adobe After Effects](./docs/adobe-ae.md)<!--rehype:style=background: rgb(111 111 228);-->
 [Adobe Premiere](./docs/adobe-pr.md)<!--rehype:style=background: rgb(111 111 228);-->
-[Android Studio](./docs/android-studio.md)<!--rehype:style=background: rgb(16 185 129);-->
 [Blender](./docs/blender.md)<!--rehype:style=background: rgb(16 185 129);-->
 [CorelDRAW](./docs/coreldraw.md)<!--rehype:style=background: rgb(16 185 129);-->
-[Firefox](./docs/firefox.md)<!--rehype:style=background: rgb(253 53 76);-->
-[Finder](./docs/finder.md)<!--rehype:style=background: rgb(253 53 76);&class=tag&data-lang=macOS-->
 [Figma](./docs/figma.md)<!--rehype:style=background: rgb(147 90 238);-->
 [Sketch](./docs/sketch.md)<!--rehype:style=background: rgb(223 148 0);&class=tag&data-lang=macOS-->
 <!--rehype:class=home-card-->
@@ -390,6 +387,30 @@ Quick Reference
 [WebStorm](./docs/webstorm.md)<!--rehype:style=background: rgb(32 148 220);-->
 [Xcode](./docs/xcode.md)<!--rehype:style=background: rgb(24 151 233);&class=tag&data-lang=macOS-->
 [Zed](./docs/zed.md)<!--rehype:style=background: rgb(71 71 71);-->
+
+<!--rehype:class=home-card-->
+
+## 快捷键 - 浏览器 / 网页工具
+
+[Firefox](./docs/firefox.md)<!--rehype:style=background: rgb(253 53 76);-->
+[Google Chrome](./docs/google-chrome.md)<!--rehype:style=background: rgb(29 116 232);-->
+[Vimium](./docs/vimium.md)<!--rehype:style=background: rgb(49 168 255);&class=contributing&class=tag&data-lang=浏览器插件-->
+
+<!--rehype:class=home-card-->
+
+## 快捷键 - 操作系统 / 系统功能
+
+[Finder](./docs/finder.md)<!--rehype:style=background: rgb(253 53 76);&class=tag&data-lang=macOS-->
+
+<!--rehype:class=home-card-->
+
+## 快捷键 - 在线服务 / 效率工具
+
+[Gmail](./docs/gmail.md)<!--rehype:style=background: rgb(234 67 54);-->
+[Gitlab](./docs/gitlab.md)<!--rehype:style=background: rgb(226 67 41);-->
+[Twitter(X)](./docs/twitter.md)<!--rehype:style=background: rgb(91 163 230);-->
+
+
 <!--rehype:class=home-card-->
 
 ## 快捷键 - 其它
