@@ -157,7 +157,6 @@ Adobe Illustrator 中键盘快捷键的可视化备忘单
 <!--rehype:className=shortcuts left-align-->
 
 ### “工具”面板
-<!--rehype:wrap-class=row-span-2-->
 
 | 快捷键 | 说明 |
 | --- | --- |
@@ -321,7 +320,6 @@ Adobe Illustrator 中键盘快捷键的可视化备忘单
 <!--rehype:className=shortcuts left-align-->
 
 ### “颜色/渐变”相关
-<!--rehype:wrap-class=row-span-2-->
 
 | 快捷键 | 说明 |
 | --- | --- |
@@ -358,7 +356,7 @@ Adobe Illustrator 中键盘快捷键的可视化备忘单
 <!--rehype:className=shortcuts left-align-->
 
 ### “图层”面板
-<!--rehype:wrap-class=row-span-2-->
+<!--rehype:body-class=cols-2-->
 
 | 快捷键 | 说明 |
 | --- | --- |
@@ -416,7 +414,6 @@ Adobe Illustrator 中键盘快捷键的可视化备忘单
 <!--rehype:className=shortcuts left-align-->
 
 ### “绘图”相关
-<!--rehype:wrap-class=row-span-2-->
 
 | 快捷键 | 说明 |
 | --- | --- |
