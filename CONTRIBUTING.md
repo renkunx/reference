@@ -249,6 +249,7 @@ REF_LABEL=网站首页
 
 由于中国国内访问，时常打不开，你可以访问下面镜像网站。
 
+[object.cool](https://r.object.cool)
 [baiyapeng.cc](https://ref.cc.baiyapeng.cc)
 [stacktao.cn](https://ref.stacktao.cn)
 [chanlun.pro](https://ref.chanlun.pro)
@@ -261,6 +262,7 @@ REF_LABEL=网站首页
 [tamamo.top](https://ref.tamamo.top)
 [sakuraovo.site](https://quick-re.site-ali.sakuraovo.site)
 [nyanon.online](https://quick-re.nyanon.online)
+[0x0f.dev](https://ref.0x0f.dev)
 [78888889.xyz](https://reference.78888889.xyz)
 [pusukeji.com](https://reference.pusukeji.com/)
 [magese.com](https://ref.magese.com)
