@@ -661,7 +661,7 @@ Quick Reference
 [quickref.binscor.top](https://quickref.binscor.top)<!--rehype:target=_blank&data-info=👆每天自动同步-->
 [zone.id](https://cyref.zone.id/)<!--rehype:target=_blank-->
 [aibk.cn](https://quickref.aibk.cn)<!--rehype:target=_blank-->
-[docflow.cn](https://ref.docflow.cn)<!--rehype:target=_blank-->
+[docflow.cn](https://ref.docflow.cn)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
 [quickref.hestudio.net](https://quickref.hestudio.net)<!--rehype:target=_blank&class=contributing&data-info=👆整点自动同步-->
 [qiubit.cc](http://ref.qiubit.cc)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
 [moeyuuko.com](https://ref.moeyuuko.com/)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
