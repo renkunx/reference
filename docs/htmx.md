@@ -8,10 +8,11 @@
 ---
 
 ### 安装
-<!--rehype:wrap-class=col-span-2 row-span-2-->
+<!--rehype:wrap-class=row-span-2-->
 
 :-- | --
 :-- | --
+CDN | `<script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.10/dist/htmx.min.js"></script>`
 下载文件 | 下载 `htmx.min.js` 后用普通 `<script>` 引入
 npm | `npm install htmx.org@2.0.10`
 Webpack / bundler | `import "htmx.org";`
@@ -20,10 +21,6 @@ Webpack / bundler | `import "htmx.org";`
 <!--rehype:className=left-align code-nowrap-->
 
 htmx 2.x 是当前主线；1.x 仍支持 IE11。生产环境使用 CDN 时建议固定版本，并按官方下载页更新 `integrity` 值。
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.10/dist/htmx.min.js"></script>
-```
 
 ### 第一个请求
 
@@ -52,7 +49,7 @@ htmx 2.x 是当前主线；1.x 仍支持 IE11。生产环境使用 CDN 时建议
 ---
 
 ### hx-trigger
-<!--rehype:wrap-class=col-span-2-->
+<!--rehype:wrap-class=row-span-2-->
 
 :-- | --
 :-- | --
@@ -101,7 +98,7 @@ htmx 2.x 是当前主线；1.x 仍支持 IE11。生产环境使用 CDN 时建议
 ```
 
 ### hx-swap
-<!--rehype:wrap-class=col-span-2-->
+<!--rehype:wrap-class=row-span-2-->
 
 :-- | --
 :-- | --
@@ -218,8 +215,6 @@ htmx 2.x 是当前主线；1.x 仍支持 IE11。生产环境使用 CDN 时建议
 </tbody>
 ```
 
----
-
 ```css
 tr.htmx-swapping td {
   opacity: 0;
@@ -228,7 +223,6 @@ tr.htmx-swapping td {
 ```
 
 ### 延迟加载与轮询
-<!--rehype:wrap-class=col-span-2-->
 
 ```html
 <div hx-get="/graph" hx-trigger="load">
@@ -363,6 +357,7 @@ Class | 说明
 `HX-Trigger` | 触发元素 id
 
 ### 响应头
+<!--rehype:wrap-class=row-span-2-->
 
 标头 | 说明
 :- | --
@@ -382,7 +377,6 @@ Class | 说明
 ---
 
 ### 扩展
-<!--rehype:wrap-class=col-span-2-->
 
 :-- | --
 :-- | --
@@ -409,7 +403,6 @@ Network 面板 | 查看 `HX-*` 请求头和响应头
 <!--rehype:className=left-align-->
 
 ### 全局配置
-<!--rehype:wrap-class=col-span-3-->
 
 ```html
 <meta name="htmx-config" content='{"defaultSwapStyle":"outerHTML"}'>
