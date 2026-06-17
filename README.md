@@ -111,7 +111,6 @@ Quick Reference
 [MATLAB](./docs/matlab.md)<!--rehype:style=background:rgb(0 118 168);&class=contributing-->
 [Pytorch](./docs/pytorch.md)<!--rehype:style=background:rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆看看还缺点儿什么？-->
 [Vue 3](./docs/vue.md)<!--rehype:style=background:rgb(64 184 131);&class=contributing-->
-[Chown](./docs/chown.md)<!--rehype:style=background:rgb(12 75 51/var(\-\-bg\-opacity));&class=contributing-->
 [R 语言](./docs/r.md)<!--rehype:style=background:rgb(39 108 192);&class=contributing-->
 [Elixir](./docs/elixir.md)<!--rehype:style=background:rgb(124 26 156);&class=contributing tag&data-lang=Elixir-->
 [Tauri](./docs/tauri.md)<!--rehype:style=background:rgb(103 214 237);&class=contributing-->

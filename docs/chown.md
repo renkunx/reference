@@ -14,7 +14,7 @@ $ chown [选项]... [所有者][:[属组]] 文件...
 $ chown [选项]... --reference=参考文件 文件...
 ```
 
-`chown` 命令可修改文件或目录的所有者及属组，执行该操作一般需要管理员权限。
+`chown` 用于修改文件或目录的所有者，也可以同时修改属组。修改文件所有者通常需要管理员权限。
 
 #### 示例
 
@@ -26,6 +26,7 @@ $ sudo chown --reference=template.txt target.txt
 ```
 
 ### 所有者与属组
+<!--rehype:wrap-class=col-span-2-->
 
 写法 | 含义
 :- | :-
@@ -35,7 +36,7 @@ $ sudo chown --reference=template.txt target.txt
 `:staff` | 只把属组改为 `staff`，效果类似 `chgrp staff`
 `:` | 不改变所有者或属组
 `+1001:+1001` | 使用数字 UID/GID，`+` 可避免与同名用户或组混淆
-<!--rehype:className=show-header left-align-->
+<!--rehype:className=show-header-->
 
 ### 常用选项
 
@@ -51,7 +52,7 @@ $ sudo chown --reference=template.txt target.txt
 `--no-preserve-root` | 不对 `/` 做特殊保护
 `--help` | 显示帮助
 `--version` | 显示版本
-<!--rehype:className=show-header left-align-->
+<!--rehype:className=show-header-->
 
 ### 符号链接
 
@@ -62,7 +63,7 @@ $ sudo chown --reference=template.txt target.txt
 `-H` | 与 `-R` 一起使用；命令行参数中的目录符号链接会被遍历
 `-L` | 与 `-R` 一起使用；遍历遇到的每个目录符号链接
 `-P` | 与 `-R` 一起使用；不遍历任何符号链接，GNU 默认值
-<!--rehype:className=show-header left-align-->
+<!--rehype:className=show-header-->
 
 常用示例
 --------
@@ -121,14 +122,12 @@ $ sudo chown --preserve-root -R alice:staff /srv/app
 ```shell
 $ sudo chown --from=root:root app:app config.yml
 ```
-<!--rehype:className=wrap-text-->
 
 只有当 `config.yml` 当前所有者和属组都是 `root` 时，才改为 `app:app`。
 
 ```shell
 $ sudo chown --from=:oldgroup :newgroup *.log
 ```
-<!--rehype:className=wrap-text-->
 
 只要求当前属组匹配 `oldgroup`，匹配后把属组改为 `newgroup`。
 
@@ -137,7 +136,6 @@ $ sudo chown --from=:oldgroup :newgroup *.log
 ```shell
 $ sudo chown --reference=template.txt target.txt
 ```
-<!--rehype:className=wrap-text-->
 
 把 `target.txt` 的所有者和属组改成与 `template.txt` 相同。
 
@@ -174,7 +172,6 @@ $ sudo chown -R www-data:www-data /var/www/example
 ```shell
 $ sudo chown -R www-data:www-data /var/www/example/uploads
 ```
-<!--rehype:className=wrap-text-->
 
 只给需要写入的目录设置 Web 服务用户归属，其他代码目录应尽量保持只读权限。
 
@@ -183,7 +180,6 @@ $ sudo chown -R www-data:www-data /var/www/example/uploads
 ```shell
 $ sudo chown -R "$USER":"$USER" ~/.config/my-tool
 ```
-<!--rehype:className=wrap-text-->
 
 当配置目录被 `sudo` 创建后，可把它恢复为当前用户拥有。
 
