@@ -329,7 +329,7 @@ CREATE TABLE "members_members" (
 | `python manage.py test` | 运行测试 |
 | `python manage.py check` | 运行系统检查 |
 | `python manage.py check --deploy` | 运行部署安全检查 |
-<!--rehype:className=show-header left-align-->
+<!--rehype:className=show-header-->
 
 `manage.py` 会自动设置 `DJANGO_SETTINGS_MODULE`，适合项目内命令；`django-admin` 更适合创建项目或在显式指定设置模块时使用。
 
@@ -349,7 +349,7 @@ CREATE TABLE "members_members" (
 | `SECRET_KEY` | 加密签名密钥，生产环境必须保密 |
 | `DEBUG` | 生产环境必须关闭 |
 | `ALLOWED_HOSTS` | 允许访问的 Host 列表 |
-<!--rehype:className=show-header left-align-->
+<!--rehype:className=show-header-->
 
 ORM 与模型
 ---
@@ -383,7 +383,7 @@ class Article(models.Model):
 - `ManyToManyField`：多对多关系，可用 `through` 指定中间表
 
 ### 查询速查
-<!--rehype:wrap-class=col-span-2 row-span-2-->
+<!--rehype:wrap-class=col-span-2 row-span-3-->
 
 ```py
 from django.utils import timezone
@@ -426,10 +426,9 @@ Article.objects.prefetch_related("tags")
 | `annotate()` | 添加聚合或表达式字段 |
 | `aggregate()` | 返回聚合结果 |
 | `exists()` | 判断是否存在匹配记录 |
-<!--rehype:className=show-header left-align-->
+<!--rehype:className=show-header-->
 
 ### 事务
-<!--rehype:wrap-class=col-span-2-->
 
 ```py
 from django.db import transaction
@@ -445,7 +444,7 @@ with transaction.atomic():
 ---
 
 ### 快捷函数
-<!--rehype:wrap-class=col-span-2-->
+<!--rehype:wrap-class=row-span-2-->
 
 ```py
 from django.shortcuts import get_object_or_404, redirect, render
@@ -460,22 +459,8 @@ def go_home(request):
     return redirect("home")
 ```
 
-### ModelForm
-
-```py
-from django.forms import ModelForm
-
-from .models import Article
-
-class ArticleForm(ModelForm):
-    class Meta:
-        model = Article
-        fields = ["title", "body", "tags"]
-```
-
-`ModelForm` 会根据模型字段生成表单，并可通过 `form.save()` 创建或更新模型实例。
-
 ### 表单处理
+<!--rehype:wrap-class=col-span-2 row-span-3-->
 
 ```py
 # forms.py
@@ -516,8 +501,23 @@ def contact(request):
 
 处理会修改数据的表单时使用 `POST`，模板中加入 `{% csrf_token %}`。
 
+### ModelForm
+
+```py
+from django.forms import ModelForm
+
+from .models import Article
+
+class ArticleForm(ModelForm):
+    class Meta:
+        model = Article
+        fields = ["title", "body", "tags"]
+```
+
+`ModelForm` 会根据模型字段生成表单，并可通过 `form.save()` 创建或更新模型实例。
+
 ### 类视图
-<!--rehype:wrap-class=col-span-2-->
+<!--rehype:wrap-class=col-span-2 row-span-2-->
 
 ```py
 from django.urls import reverse_lazy
@@ -569,8 +569,6 @@ class ArticleAdmin(admin.ModelAdmin):
     search_fields = ["title", "body"]
 ```
 
----
-
 ```bash
 $ python manage.py createsuperuser
 $ python manage.py runserver
@@ -579,7 +577,6 @@ $ python manage.py runserver
 访问 `/admin/` 管理数据。生产环境应限制后台入口、启用 HTTPS 并保护管理员账号。
 
 ### 认证装饰器
-<!--rehype:wrap-class=col-span-2-->
 
 ```py
 from django.contrib.auth.decorators import login_required, permission_required
@@ -616,9 +613,9 @@ $ python manage.py test blog.tests.ArticleTests
 
 部署检查
 ---
-<!--rehype:body-class=cols-1-->
 
 ### 上线前必查
+<!--rehype:wrap-class=col-span-2 row-span-2-->
 
 | 检查项 | 建议 |
 | :- | :- |
@@ -631,7 +628,7 @@ $ python manage.py test blog.tests.ArticleTests
 | 数据库 | 使用生产数据库账号、备份和迁移流程 |
 | 日志 | 配置 `LOGGING`，保存错误与审计信息 |
 | 系统检查 | 执行 `python manage.py check --deploy` |
-<!--rehype:className=show-header left-align-->
+<!--rehype:className=show-header-->
 
 Django 模板
 ---
