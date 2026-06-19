@@ -25,7 +25,7 @@ PM2 备忘清单
 升级全局包后执行 `pm2 update`，让正在运行的 daemon 使用新版本。
 
 ### 启动应用
-<!--rehype:wrap-class=col-span-2 row-span-2-->
+<!--rehype:wrap-class=row-span-2-->
 
 :-- | --
 :-- | --
@@ -67,7 +67,7 @@ $ pm2 start app.js -- --port 3000
 ----
 
 ### 日志
-<!--rehype:wrap-class=col-span-2-->
+<!--rehype:wrap-class=row-span-2-->
 
 :-- | --
 :-- | --
@@ -101,7 +101,6 @@ $ pm2 start app.js -- --port 3000
 ----
 
 ### Cluster 模式
-<!--rehype:wrap-class=col-span-2-->
 
 :-- | --
 :-- | --
@@ -132,6 +131,7 @@ module.exports = {
 ----
 
 ### ecosystem.config.js
+<!--rehype:wrap-class=row-span-2-->
 
 :-- | --
 :-- | --
@@ -142,8 +142,8 @@ module.exports = {
 `pm2 stop ecosystem.config.js` | 停止配置文件中的应用
 `pm2 delete ecosystem.config.js` | 删除配置文件中的应用
 `pm2 start ecosystem.config.js --only api` | 只操作指定应用
-`pm2 start ecosystem.config.js --env production`<!--rehype:className=wrap-text--> | 使用 `env_production`
-<!--rehype:className=left-align wrap-text code-nowrap style-list-->
+`pm2 start ecosystem.config.js --env production` | 使用 `env_production`
+<!--rehype:className=left-align code-nowrap-->
 
 配置文件建议以 `.config.js` 结尾，便于 PM2 识别。
 
@@ -198,7 +198,7 @@ $ pm2 start ecosystem.config.js --env production
 ----
 
 ### 常见策略
-<!--rehype:wrap-class=col-span-2-->
+<!--rehype:wrap-class=row-span-2-->
 
 :-- | --
 :-- | --
@@ -233,7 +233,7 @@ PM2 默认会在应用崩溃、退出或 Node.js 事件循环为空时尝试重�
 ----
 
 ### 启动脚本
-<!--rehype:wrap-class=col-span-2-->
+<!--rehype:wrap-class=row-span-2-->
 
 :-- | --
 :-- | --
@@ -261,7 +261,6 @@ $ pm2 startup
 ----
 
 ### 部署后平滑更新
-<!--rehype:wrap-class=col-span-2-->
 
 ```bash
 $ git pull
@@ -277,7 +276,14 @@ $ pm2 save
 $ pm2 start server.js --name api --time --max-memory-restart 300M
 $ pm2 logs api --lines 100
 ```
-<!--rehype:className=wrap-text-->
+
+### 查看异常原因
+
+```bash
+$ pm2 describe api
+$ pm2 logs api --err --lines 200
+$ pm2 report
+```
 
 ### 清理不再需要的进程
 
@@ -288,7 +294,6 @@ $ pm2 save
 ```
 
 ### 常见排障
-<!--rehype:wrap-class=col-span-2 row-span-2-->
 
 :-- | --
 :-- | --
@@ -300,14 +305,6 @@ watch 停止后仍会重启 | 使用 `pm2 stop app --watch` 彻底关闭 watch
 Cluster 未负载均衡 | 配置文件里确认 `exec_mode: "cluster"`
 reload 变成 restart | 应用未能及时优雅退出，检查连接关闭与超时
 <!--rehype:className=left-align-->
-
-### 查看异常原因
-
-```bash
-$ pm2 describe api
-$ pm2 logs api --err --lines 200
-$ pm2 report
-```
 
 参考资料
 ----
