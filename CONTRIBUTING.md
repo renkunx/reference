@@ -536,7 +536,7 @@ jobs:
 <a href="https://github.com/BingChunMoLi" title="冰彦糖"><img src="https://avatars.githubusercontent.com/u/44092516?v=4" width="42;" alt="冰彦糖"/></a>
 <a href="https://github.com/lvzhenbo" title="无聊波波"><img src="https://avatars.githubusercontent.com/u/32427677?v=4" width="42;" alt="无聊波波"/></a>
 <a href="https://github.com/kele527" title="吹衣轻飏"><img src="https://avatars.githubusercontent.com/u/345445?v=4" width="42;" alt="吹衣轻飏"/></a>
-<a href="https://github.com/LuckyJie12" title="夜未央"><img src="https://avatars.githubusercontent.com/u/102901105?v=4" width="42;" alt="夜未央"/></a>
+<a href="https://github.com/LuckyJie3" title="夜未央"><img src="https://avatars.githubusercontent.com/u/102901105?v=4" width="42;" alt="夜未央"/></a>
 <a href="https://github.com/ZIDOUZI" title="子斗子"><img src="https://avatars.githubusercontent.com/u/53157536?v=4" width="42;" alt="子斗子"/></a>
 <a href="https://github.com/Fengjing95" title="小枫"><img src="https://avatars.githubusercontent.com/u/51731411?v=4" width="42;" alt="小枫"/></a>
 <a href="https://github.com/LongYinStudio" title="敬培全"><img src="https://avatars.githubusercontent.com/u/42208852?v=4" width="42;" alt="敬培全"/></a>
@@ -566,7 +566,7 @@ jobs:
 <a href="https://github.com/hiyms" title="yms"><img src="https://avatars.githubusercontent.com/u/84654050?v=4" width="42;" alt="yms"/></a>
 <a href="https://github.com/sirius-fan" title="Fan"><img src="https://avatars.githubusercontent.com/u/25720015?v=4" width="42;" alt="Fan"/></a>
 <a href="https://github.com/Fuku-L" title="Foozi"><img src="https://avatars.githubusercontent.com/u/38535911?v=4" width="42;" alt="Foozi"/></a>
-<a href="https://github.com/Furry-Monster" title="Furry-Monster"><img src="https://avatars.githubusercontent.com/u/158404543?v=4" width="42;" alt="Furry-Monster"/></a>
+<a href="https://github.com/Furry-Monster" title="fumo"><img src="https://avatars.githubusercontent.com/u/158404543?v=4" width="42;" alt="fumo"/></a>
 <a href="https://github.com/gongyeheyu" title="GONGYE Heyu"><img src="https://avatars.githubusercontent.com/u/85177605?v=4" width="42;" alt="GONGYE Heyu"/></a>
 <a href="https://github.com/Ding-Kyoma" title="HooinKyoma"><img src="https://avatars.githubusercontent.com/u/44542198?v=4" width="42;" alt="HooinKyoma"/></a>
 <a href="https://github.com/JavaZeroo" title="JavaZero"><img src="https://avatars.githubusercontent.com/u/71128095?v=4" width="42;" alt="JavaZero"/></a>
