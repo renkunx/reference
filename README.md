@@ -644,7 +644,7 @@ Quick Reference
 [jhao.me](http://reference.jhao.me/)<!--rehype:target=_blank-->
 [maoo.me](https://note.maoo.me)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
 [luckyits.com](https://ref.luckyits.com/)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
-[9up.dev](https://devref.9up.dev)<!--rehype:target=_blank-->
+[http418.org](https://devref.http418.org)<!--rehype:target=_blank-->
 [ylmty.cc](https://docs.ylmty.cc)<!--rehype:target=_blank-->
 [mingming.dev](https://ref.mingming.dev)<!--rehype:target=_blank-->
 [itzcy.com](https://reference.itzcy.com/)<!--rehype:target=_blank-->
