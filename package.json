@@ -10,8 +10,8 @@
   "scripts": {
     "prepare": "husky",
     "postinstall": "npm run cpy",
-    "build": "refs-cli && npm run cpy",
-    "start": "npm run cpy && refs-cli --watch",
+    "build": "node scripts/gen-contributors-page.mjs && refs-cli && npm run cpy",
+    "start": "node scripts/gen-contributors-page.mjs && npm run cpy && refs-cli --watch",
     "cpy": "cpy 'appicon/*.png' dist/appicon",
     "prettier": "prettier --write '**/*.{mjs,css,json,prettierrc,lintstagedrc}'",
     "markdownlint": "npx markdownlint-cli --fix ./docs/*.md"
