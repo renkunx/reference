@@ -16,6 +16,7 @@ Quick Reference
 
 这是一份为中文开发者整理的技术栈速查清单，基于英文版 [Reference](https://github.com/Randy8080/reference) 翻译扩展而来，新增了更多实用内容，旨在提升查阅效率与使用体验。欢迎分享你的清单，我会尽量搬运实现；如发现内容不妥，也可通过提交 [PR](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md) 进行修复或完善。项目持续更新，欢迎参与贡献！
 
+<!--rehype:ignore:start-->
 ## 赞助支持
 <!--rehype:class=home-title-reset-->
 
@@ -93,6 +94,7 @@ Quick Reference
   </p>
   <!--rehype:style=display:flex;gap:21px;-->
 </div>
+<!--rehype:ignore:end-->
 
 ## 正在建设中...
 
@@ -116,20 +118,6 @@ Quick Reference
 [Cisco 网络设备](./docs/cisco-devices.md)<!--rehype:style=background: rgb(4 159 217);&class=contributing&data-info=👆看看还缺点儿什么？-->
 [Huawei 网络设备](./docs/huawei-devices.md)<!--rehype:style=background: rgb(222 0 8);&class=contributing&data-info=👆看看还缺点儿什么？-->
 [银联 CUPS](./docs/unipay.md)<!--rehype:style=background: #04563e;-->
-<!--rehype:class=home-card-->
-
-
-## AI
-
-[AI 工具](./docs/ai-tools.md)<!--rehype:style=background:rgb(74 161 129);&class=tag&data-lang=AI-->
-[ChatGPT](./docs/chatgpt.md)<!--rehype:style=background:rgb(74 161 129);&class=tag&data-lang=AI-->
-[Codex CLI](./docs/codex-cli.md)<!--rehype:style=background:rgb(74 161 129);&class=tag&data-lang=AI-->
-[Claude Code](./docs/claude.md)<!--rehype:style=background:rgb(217 119 87);&class=tag&data-lang=AI-->
-[Cursor CLI](./docs/cursor-cli.md)<!--rehype:style=background:rgb(119 119 119);&class=tag&data-lang=AI-->
-[Gemma 4](./docs/gemma4.md)<!--rehype:style=background:rgb(87 132 217);&class=tag&data-lang=AI-->
-[Gemini CLI](./docs/gemini-cli.md)<!--rehype:style=background:rgb(217 87 96);&class=tag&data-lang=AI-->
-[Grok CLI](./docs/grok-cli.md)<!--rehype:style=background:rgb(122 87 217);&class=tag&data-lang=AI-->
-[Grok](./docs/grok.md)<!--rehype:style=background:rgb(84 84 84);&class=tag&data-lang=官方-->
 <!--rehype:class=home-card-->
 
 
@@ -386,17 +374,6 @@ Quick Reference
 [WebStorm](./docs/webstorm.md)<!--rehype:style=background: rgb(32 148 220);-->
 [Xcode](./docs/xcode.md)<!--rehype:style=background: rgb(24 151 233);&class=tag&data-lang=macOS-->
 [Zed](./docs/zed.md)<!--rehype:style=background: rgb(71 71 71);-->
-<!--rehype:class=home-card-->
-
-## 快捷键 - 其它
-
-[Firefox](./docs/firefox.md)<!--rehype:style=background: rgb(253 53 76);-->
-[Google Chrome](./docs/google-chrome.md)<!--rehype:style=background: rgb(29 116 232);-->
-[Vimium](./docs/vimium.md)<!--rehype:style=background: rgb(49 168 255);&class=contributing&class=tag&data-lang=浏览器插件-->
-[Finder](./docs/finder.md)<!--rehype:style=background: rgb(253 53 76);&class=tag&data-lang=macOS-->
-[Gmail](./docs/gmail.md)<!--rehype:style=background: rgb(234 67 54);-->
-[Gitlab](./docs/gitlab.md)<!--rehype:style=background: rgb(226 67 41);-->
-[Twitter(X)](./docs/twitter.md)<!--rehype:style=background: rgb(91 163 230);-->
 <!--rehype:class=home-card-->
 
 ## 快捷键 - 其它
@@ -797,6 +774,7 @@ Quick Reference
 <!--rehype:class=home-card home-links-->
 
 如果你有资源，可以很方便地 [部署 web 版](https://github.com/jaywcjlove/reference/issues/102#issue-1451649637)，这一过程非常简单。只需要克隆 [gh-pages](https://github.com/jaywcjlove/reference/tree/gh-pages) 分支的代码到你的静态服务即可。你还可以使用 [docker](https://hub.docker.com/r/wcjiang/reference) 快捷部署 web 版，或者直接一键部署到 [Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/jaywcjlove/reference)。
+<!--rehype:ignore:end-->
 
 ## 其它资源
 <!--rehype:wrap-style=text-align: center;max-width: 650px;margin: 0 auto;&class=home-title-reset-->
